@@ -1,0 +1,101 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #13022E;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+    width: auto;
+}
+.ellipse {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    overflow: hidden;
+}
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 3;
+    overflow: hidden;
+}
+.ellipse-3 {
+    z-index: 2;
+    width: 2081px;
+    height: 1272px;
+    left: -66px;
+    top: -460px;
+    background: linear-gradient(180deg, #13022E 0%, #4A3D8B 100%);
+}
+.ellipse-4 {
+    z-index: 1;
+    width: 1911px;
+    height: 1272px;
+    left: -107px;
+    top: -382px;
+    background: rgba(19, 2, 46, 0.68);
+}
+.ellipse-5 {
+    z-index: 0;
+    width: 1864px;
+    height: 1272px;
+    left: -149px;
+    top: -309px;
+    background: #251B5A;
+}
+.content-wrapper {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.ellipse-10  { width:160px; height:148px; left:62px;   top:1366px;  border:12px solid #4A3D8B; }
+.ellipse-17  { width:160px; height:148px; left:1433px; top:963px;   border:12px solid rgba(74,61,139,0.2); }
+.ellipse-59  { width:160px; height:148px; left:819px;  top:312px;   border:12px solid rgba(74,61,139,0.2); }
+.ellipse-60  { width:160px; height:148px; left:1287px; top:683px;   border:12px solid rgba(74,61,139,0.2); }
+.ellipse-61  { width:160px; height:148px; left:495px;  top:621px;   border:12px solid rgba(74,61,139,0.2); }
+.ellipse-39  { width:160px; height:148px; left:793px;  top:2223px;  border:12px solid rgba(74,61,139,0.19); }
+.ellipse-21  { width:87px;  height:85px;  left:1459px; top:2336px;  border:12px solid #4A3D8B; }
+.ellipse-64  { width:54px;  height:49px;  left:327px;  top:2448px;  border:12px solid rgba(74,61,139,0.2); }
+.ellipse-16  { width:67px;  height:61px;  left:332px;  top:473px;   border:12px solid #4A3D8B; }
+.ellipse-22  { width:67px;  height:61px;  left:616px;  top:146px;   border:12px solid rgba(74,61,139,0.37); }
+.ellipse-23  { width:67px;  height:61px;  left:75px;   top:170px;   border:12px solid rgba(74,61,139,0.37); }
+.ellipse-24  { width:67px;  height:61px;  left:810px;  top:727px;   border:12px solid #4A3D8B; }
+.ellipse-25  { width:67px;  height:61px;  left:1463px; top:231px;   border:12px solid #4A3D8B; }
+.ellipse-27  { width:67px;  height:61px;  left:101px;  top:1014px;  border:12px solid #4A3D8B; }
+.ellipse-32  { width:67px;  height:61px;  left:514px;  top:1683px;  border:12px solid rgba(74,61,139,0.12); }
+.ellipse-62  { width:67px;  height:61px;  left:1154px; top:1426px;  border:12px solid rgba(74,61,139,0.12); }
+.ellipse-14  { width:153px; height:114px; left:366px;  top:1117px;  border:10px solid #1DBFFE; filter: blur(25px); }
+
+/* Group 3 */
+.language-selector {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* Language selector background */
+.language-selector select {
+    background: transparent;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 5px 10px;
+    width: auto;
+}
+
+/* Add a slight margin or padding to give space between the text and arrow */
+.language-selector select option {
+    padding: 5px;
+    background-color: transparent;
+    color: #000; /* Adjust the text color inside the dropdown */
+}
